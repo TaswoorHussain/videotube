@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a fullbackend code for videotube ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code",
+    "javascript"
+  ],
+  "author": "Taswoor Hossein",
+  "license": "ISC"
+}
