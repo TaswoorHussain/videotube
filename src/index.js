@@ -10,6 +10,10 @@ const app=express();
 
 connectDB()
 .then(()=>{
+
+  // app.get('/' ,(req,res)=>{
+  //     res.send("<h1>This is videotube express app... </h1>")
+  // })
    app.listen(process.env.PORT || 8000 , ()=>{
      console.log("Server is running on port " , process.env.PORT)
    })
